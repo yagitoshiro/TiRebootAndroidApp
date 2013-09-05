@@ -3,7 +3,7 @@ TiRebootAndroidApp
 
 Simple module to reboot your Android app made with Appcelerator Titanium
 
-(1) Add below property to tiapp.xml.
+(1) Add below properties to tiapp.xml. Empty message does the trick.
 ```
   <property name="ti.android.bug2373.skipAlert">true</property>
   <property name="ti.android.bug2373.message"></property>
